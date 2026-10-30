@@ -1,0 +1,10 @@
+.DS_Store
+**/.DS_Store
+data/
+datasets/
+*.h5ad
+*.npy
+*.parquet
+*.pkl
+.ipynb_checkpoints/
+__pycache__/
