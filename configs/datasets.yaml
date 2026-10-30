@@ -1,0 +1,25 @@
+datasets:
+  ds1:
+    boundary: "Neural crest / FMH"
+    molecules: datasets/RNA/dataset1_registered_molecules.csv  
+    masks: datasets/segmentation/segmentation_final.tif
+    tensionmap: datasets/tensionmap/tensionmap_res.csv
+  ds2:
+    boundary: "Cranial mesoderm / FMH"
+    molecules: datasets/RNA/dataset2_registered_molecules.csv  
+    masks: datasets/segmentation/segmentation_final_2.tif
+    tensionmap: datasets/tensionmap/tensionmap_res_2.csv
+  ds3:
+    boundary: "Midbrain / Hindbrain"
+    molecules: datasets/RNA/dataset3_registered_molecules.csv  
+    masks: datasets/segmentation/segmentation_final_3.tif
+    tensionmap: datasets/tensionmap/tensionmap_res_3.csv
+
+analysis:
+  min_molecules: 20
+  n_pcs: 20
+  n_perm: 200
+  seed: 0
+  strata: [tm_celltype, tm_boundary_annotation, tm_spatial_block]
+  discordance_percentile: 0.90
+
