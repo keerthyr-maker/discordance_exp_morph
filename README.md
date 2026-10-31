@@ -30,12 +30,12 @@ We assigned each cell to one of the five categories: “Morphology Outlier”, �
 
 ## Repository Layout
 
-src/discordance/   reusable code (see below)
-notebooks/         analysis notebooks, run in numeric order
-configs/           dataset paths and parameters
-results/           small derived tables
-figures/           final figures
-datasets/          extracted data used for analysis
+- src/discordance/   reusable code (see below)
+- notebooks/         analysis notebooks, run in numeric order
+- configs/           dataset paths and parameters
+- results/           small derived tables
+- figures/           final figures
+- datasets/          extracted data used for analysis
 
 
 ## Data
